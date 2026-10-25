@@ -1,29 +1,13 @@
 # Samay Nandaniya — Portfolio
 
-A responsive React + Vite portfolio based on Samay's professional resume.
+React + Vite portfolio updated to match the final resume (October 2026).
 
-## Run locally
+## Deploy on Vercel
+1. Upload the **contents of this folder** to your GitHub repository root.
+2. In Vercel, import the repository; select Vite, build command `npm run build`, output directory `dist`.
+3. Deploy or allow the connected Vercel project to redeploy after committing.
 
-```bash
-npm install
-npm run dev
-```
+The resume download works because the PDF is in `public/Samay_Nandaniya_Resume.pdf`.
 
-## Deploy to Vercel
-
-1. Push this folder to a GitHub repository.
-2. Import the repository at https://vercel.com/new.
-3. Select **Vite** (or allow automatic detection), build command `npm run build`, output directory `dist`.
-4. Click Deploy. Add the resulting public URL to your resume and job applications.
-
-## Deploy to Netlify
-
-1. Import the GitHub repository in Netlify.
-2. Build command: `npm run build`; publish directory: `dist`.
-3. Deploy and copy the live URL.
-
-## Before publishing
-
-- Verify LinkedIn profile URL: `https://www.linkedin.com/in/samay-nandaniya/` (inferred from resume handle).
-- Add a GitHub link and genuine project links when available; these are intentionally not invented.
-- Review resume claims and contact information.
+## Local development
+`npm install` then `npm run dev`.
